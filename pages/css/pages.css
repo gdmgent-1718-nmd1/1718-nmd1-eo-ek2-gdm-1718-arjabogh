@@ -15,4 +15,71 @@ img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
 
-/* Voeg jouw css hieraan toe */
+#styleguidecontainer {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.header1 {
+    font-size: 80px;
+    color: #FFE2AB;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header2 {
+    font-size: 50px;
+    color: #5B5466;
+    font-weight: bold;
+}
+
+.header3 {
+    font-size: 40px;
+    color: #FFE2AB;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tekst {
+    font-size: 25px;
+    color: #5B5466;
+    font-weight: normal;
+}
+
+
+.color {
+    width: 200px;
+    height: 200px;
+    float: left;
+    color: white;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.purple {
+    background-color: #8859D4;
+}
+
+.beige {
+    background-color: #FFE2AB;
+}
+
+.darkpurple {
+    background-color: #5B5466;
+}
+
+.lightbrown {
+    background-color: #CC8D41;
+}
+
+.blue {
+    background-color: #6B82FF;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+user agent stylesheet
+div {
+    display: block;
+}
